@@ -1,0 +1,107 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the book list */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.book {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style book categories */
+.category-list {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.category-list h2 {
+  color: #333;
+}
+
+.category-list ul {
+  list-style-type: none;
+}
+
+.category-list li {
+  margin-bottom: 10px;
+}
+
+/* Style the shopping cart */
+.shopping-cart {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.shopping-cart h2 {
+  color: #333;
+}
+
+.shopping-cart ul {
+  list-style-type: none;
+}
+
+.shopping-cart li {
+  margin-bottom: 10px;
+}
+
+/* Style buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
